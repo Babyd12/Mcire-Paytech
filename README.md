@@ -68,7 +68,8 @@ simply configure the IPN URL as follows
 
 ## Usage
 
-### Initiating a Payment
+### Initiating a Payment (Put it inside your payment controller)
+
 
 ```php
 use Mcire\PayTech\Facades\PayTech;
