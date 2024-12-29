@@ -1,0 +1,34 @@
+{
+    "name": "mcire/paytech",
+    "description": "Integration of PayTech payment gateway for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+          "role": "Developer",
+          "name": "Mamadou Cire CAMARA",
+          "email": "mamadoucirecamara99@gmail.com",
+          "homepage": "https://www.thegalsengeek.com/"
+        }
+      ],
+    "autoload": {
+        "psr-4": {
+            "Mcire\\PayTech\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mcire\\PayTech\\PayTechServiceProvider"
+            ],
+            "aliases": {
+                "PayTech": "Mcire\\PayTech\\Facades\\PayTech"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
