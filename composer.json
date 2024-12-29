@@ -29,7 +29,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "mcire/paytech": "v1.0.0",
+       "mcire/paytech": "v1.0.0-alpha",
         "php": ">=8.0",
         "guzzlehttp/guzzle": "^7.0"
     }
