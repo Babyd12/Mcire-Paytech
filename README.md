@@ -143,7 +143,7 @@ Configure the environment via the `PAYTECH_ENV` variable in your `.env` file.
 
 For any questions or issues:
 - Open an issue on GitHub
-- Contact PayTech support at mamadoucirecamara99@gmail.com
+- Contact me at mamadoucirecamara99@gmail.com
 
 ## License
 
