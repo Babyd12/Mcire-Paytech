@@ -111,6 +111,9 @@ try {
     abort(500, $e->getMessage());
 }
 ```
+```bash
+php artisan serve
+```
 
 ### Available Parameters
 
