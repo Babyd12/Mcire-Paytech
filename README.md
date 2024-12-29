@@ -173,3 +173,4 @@ For any questions or issues:
 ## License
 
 This package is open-sourced software licensed under the MIT license. See the LICENSE file for more details.
+This package provides an easy integration of the PayTech payment gateway into your Laravel applications.
