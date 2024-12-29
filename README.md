@@ -22,6 +22,8 @@ composer require guzzlehttp/guzzle
 ```
 
 ```bash
+use App\Http\Controllers\PaymentController;
+
 Route::post('/checkout', [PaymentController::class, 'payment'])->name('payment.submit');
 Route::get('ipn', [PaymentController::class, 'ipn'])->name('paytech-ipn');
 Route::get('payment/success', [PaymentController::class, 'paymentSuccessView'])->name('payment.success.view');
