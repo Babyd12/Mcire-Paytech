@@ -11,6 +11,25 @@ This package provides an easy integration of the PayTech payment gateway into yo
 
 ## Installation
 
+
+## 🧿 Prerequisite
+
+You have already created a controller for payments, an associated route and a view containing the product purchase form.
+
+```bash
+composer require guzzlehttp/guzzle
+
+```
+
+```bash
+Route::post('/checkout', [PaymentController::class, 'payment'])->name('payment.submit');
+Route::get('ipn', [PaymentController::class, 'ipn'])->name('paytech-ipn');
+Route::get('payment/success', [PaymentController::class, 'paymentSuccessView'])->name('payment.success.view');
+Route::get('payment/cancel', [PaymentController::class, 'cancel'])->name('paytech.cancel');
+```
+
+## ⬇ Install now
+
 ```bash
 composer require mcire/paytech
 ```
